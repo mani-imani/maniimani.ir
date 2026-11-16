@@ -2,7 +2,7 @@
 // Pages: network first, so the site is always fresh online; the cached copy opens offline.
 // Everything else (css, fonts, images, resume files): cache first. A new build changes VERSION,
 // which installs a fresh cache and deletes the old one.
-const VERSION = '98f5e34f1d54';
+const VERSION = '3ae86771a669';
 const CACHE = 'maniimani-' + VERSION;
 const CORE = ["/", "/en/", "/projects/request-system/", "/en/projects/request-system/", "/404.html", "/css/site.css", "/manifest.webmanifest", "/img/favicon-fa.svg", "/img/favicon-en.svg", "/img/apple-touch-icon.png", "/img/app-icon-192.png", "/img/mani-imanisanjar-portrait-gray-circle-800.png"];
 self.addEventListener('install', (e) => {
